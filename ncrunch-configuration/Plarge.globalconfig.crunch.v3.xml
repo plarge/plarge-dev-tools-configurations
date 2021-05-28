@@ -1,0 +1,44 @@
+﻿<GlobalConfiguration>
+  <Settings>
+    <AllowParallelTestExecution>True</AllowParallelTestExecution>
+    <CPUCoresAssignedToNCrunch>0,1</CPUCoresAssignedToNCrunch>
+    <CPUCoresAssignedToVisualStudio>2,3</CPUCoresAssignedToVisualStudio>
+    <FastLaneThreads>1</FastLaneThreads>
+    <HiddenGlobalWarnings />
+    <InstrumentationMode>Optimised</InstrumentationMode>
+    <MaxNumberOfProcessingThreads>2</MaxNumberOfProcessingThreads>
+    <MaxTestRunnerProcessesToPool>0</MaxTestRunnerProcessesToPool>
+    <SystemConfigured>True</SystemConfigured>
+    <TerminateTestRunnerTasksOnExecutionComplete>True</TerminateTestRunnerTasksOnExecutionComplete>
+    <UseSimplifiedSettingsWhereAvailable>False</UseSimplifiedSettingsWhereAvailable>
+    <WizardAllowParallelTestExecution>True</WizardAllowParallelTestExecution>
+    <WizardEngineMode>Run all tests automatically</WizardEngineMode>
+    <WizardIgnoreTests>False</WizardIgnoreTests>
+  </Settings>
+  <EngineModes>
+    <EngineMode>
+      <Name>Run all tests automatically</Name>
+      <Settings />
+    </EngineMode>
+    <EngineMode>
+      <Name>Run all tests manually</Name>
+      <Settings>
+        <TestsToExecuteAutomatically>False</TestsToExecuteAutomatically>
+      </Settings>
+    </EngineMode>
+    <EngineMode>
+      <Name>Run impacted tests automatically, others manually</Name>
+      <Settings>
+        <AlignOutOfDateStatusWithImpactStatus>True</AlignOutOfDateStatusWithImpactStatus>
+        <TestsToExecuteAutomatically>IsImpacted</TestsToExecuteAutomatically>
+      </Settings>
+    </EngineMode>
+    <EngineMode>
+      <Name>Run pinned tests automatically, others manually</Name>
+      <Settings>
+        <AutoPinNewTests>True</AutoPinNewTests>
+        <TestsToExecuteAutomatically>IsPinned</TestsToExecuteAutomatically>
+      </Settings>
+    </EngineMode>
+  </EngineModes>
+</GlobalConfiguration>
