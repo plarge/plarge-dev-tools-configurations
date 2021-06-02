@@ -22,4 +22,4 @@ Here are the development tools I use (sort by alphabetic order):
 
 - - -
 
-[Pierre Large](mailto:pierre@plarge.com) - May 2021
+[Pierre Large](mailto:pierre@plarge.com) - Jun 2021
