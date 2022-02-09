@@ -18,6 +18,7 @@ Here are the development tools I use (sort by alphabetic order):
 
 - [NCrunch](ncrunch-configuration/NCrunch-configuration.md)
 - [ReSharper](resharper-configuration/Resharper-configuration.md)
+- [Tower](tower-configuration/Tower-configuration.md)
 - [Visual Studio](vs-configuration/Visual-Studio-configuration.md)
 
 - - -
