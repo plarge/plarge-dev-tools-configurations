@@ -1,0 +1,13 @@
+{
+  "DisplayName":           "KDiff 3 Extended",
+  "MinimumVersion":        "",
+  "SupportsDiffChangeset": false,
+  "SupportsDirectoryDiff": false,
+  "DiffToolArguments":     "\"$LOCAL\" \"$REMOTE\"",
+  "MergeToolArguments":    "\"$BASE\" \"$LOCAL\" \"$REMOTE\" -o \"$MERGED\" --L1 Base --L2 Mine --L3 Theirs",
+  "ApplicationRegistryIdentifiers": [
+  ],
+  "ApplicationPaths": [
+    "%ProgramW6432%\\KDiff3\\kdiff3.exe"
+  ]
+}
